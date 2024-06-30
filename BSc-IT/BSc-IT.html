@@ -10,38 +10,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
     <style>
-        .navbar {
-            position: fixed;
-            z-index: 1;
-        }
-
         .content {
             display: flex;
             justify-content: center;
             align-content: center;
-            margin-top: 70px;
-
-
+            /* margin-top: 70px; */
         }
 
         .content-tableS1 {
             border: black 3px solid;
             border-radius: 5px;
-            width: 70%;
-            height: 80%;
+            /* width: 70%;
+            height: 80%; */
             padding: 10px;
             margin: 20px;
             backdrop-filter: blur(10px);
             background-color: rgba(131, 201, 223, 0.299);
+            min-width: 40vw;
         }
 
         .content-tableS1 th {
             font-size: 30px;
-        }
-
-        .main-container {
-            height: 175vh;
-            background-image: url('/notes/Asset/bg.jpeg');
         }
     </style>
 </head>
@@ -51,8 +40,8 @@
         <img src="/Asset/logo2.png" alt="logo" class="logo" />
 
         <div class="nav-center">
-            <div class="home"><a href="/index.html"
-                    style="text-decoration: none; color: black; font-weight: bold;" target="_self">Home</a>
+            <div class="home"><a href="/index.html" style="text-decoration: none; color: black; font-weight: bold;"
+                    target="_self">Home</a>
             </div>
 
             <div class="dropdown" style="padding-top: 7px;">
@@ -101,7 +90,7 @@
 
     <main>
 
-        <div class="main-container">
+        <div class="main-container-home">
 
 
             <div class="mini-container">
@@ -302,6 +291,7 @@
         </div>
     </main>
 
+
     <footer>
         <div class="footer-last">
             <div class="second-last-container">
@@ -317,10 +307,20 @@
                 </form>
             </div>
             <div class="about-us">
-                <h2>About Us</h2>
-                <p>This website is made three friends named Anuj,Dipesh and Avishkar for practice purpose. <br> We three
-                    have
-                    studied in course Bsc IT. <br> We got Graduated in year 2024.</p>
+                <h2 style="color: grey;">About StudyHub</h2>
+                <p>Welcome to StudyHub! <br>
+
+                    At StudyHub, our mission is to support BSC-IT and BSC-CS students by providing comprehensive notes
+                    for all
+                    semesters. We understand the challenges of pursuing a bachelor's degree, and our user-friendly
+                    platform
+                    ensures that you can access all the resources you need without the hassle of logging in. Best of
+                    all,
+                    everything on StudyHub is completely free. Join us on our journey as we continue to expand and add
+                    more
+                    valuable resources to aid your academic success.
+
+                    Happy Studying!</p>
 
             </div>
             <div class="last-container">
@@ -336,6 +336,8 @@
             </div>
         </div>
     </footer>
+
+
 </body>
 
 </html>
